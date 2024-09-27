@@ -29,7 +29,7 @@ git clone git@github.com:qirolab/nuxt-sanctum-authentication-demo.git
 Navigate to the Laravel folder and install dependencies:
 
 ```bash
-cd laravel-app
+cd laravel-api
 composer install
 ```
 
