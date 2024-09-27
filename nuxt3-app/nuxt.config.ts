@@ -20,17 +20,17 @@ export default defineNuxtConfig({
 
   laravelSanctum: {
     apiUrl: process.env.NUXT_SANCTUM_API_URL,
-    authMode: (process.env.NUXT_AUTH_MODE as "token" | "cookie") || "cookie",
+    authMode: (process.env.NUXT_AUTH_MODE as "token" | "cookie") || "token",
 
     sanctumEndpoints: {
       // Endpoint to request a new CSRF token from the server
       csrf: "/sanctum/csrf-cookie",
 
       // Endpoint used for user authentication
-      login: "/api/login",
+      login: "/api/tokens/create",
 
       // Endpoint used to log out users
-      logout: "/api/logout",
+      logout: "/api/tokens/delete",
 
       // Endpoint to retrieve the currently authenticated user's data
       user: "/api/user",
