@@ -21,7 +21,7 @@ For a step-by-step guide, watch the full tutorial on YouTube:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/nuxt-sanctum-authentication-demo.git
+git clone git@github.com:qirolab/nuxt-sanctum-authentication-demo.git
 ```
 
 ### 2. Setup Laravel
@@ -85,7 +85,6 @@ npm run dev
 - Open the Laravel app in your browser (default: `http://localhost:8000`).
 - Open the Nuxt app in your browser (default: `http://localhost:3000`).
 - Try logging in using the credentials you've set up in your Laravel app.
-- Make sure to replace the repository URL with the actual one.
 
 ## Support
 
