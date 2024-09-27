@@ -87,6 +87,24 @@ npm run dev
 - Try logging in using the credentials you've set up in your Laravel app.
 - Make sure to replace the repository URL with the actual one.
 
+## Support
+
+If you found this demo helpful and want to support my work, check out some of my other products:
+
+<div style="display:flex;">
+  <a href="https://qirolab.com/ctrl-alt-cheat" title="Ctrl+Alt+Cheat - The Ultimate Cheat Sheets at Your Fingertips">
+    <img width="200" height="200" src="https://i.imgur.com/6igLwXU.png" alt="Ctrl+Alt+Cheat" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://qirolab.com/spec-coder" title="Spec Coder: AI-Powered VS Code Extension">
+     <img width="200" height="200" src="https://i.imgur.com/zHSNlJu.png" alt="Spec Coder" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://qirolab.gumroad.com/l/javascript-from-es2015-to-es2023" title="JavaScript: A Comprehensive Guide from ES2015 to ES2023 - eBook">
+      <img width="200" height="200" src="https://i.imgur.com/vXnJAul.png" alt="JavaScript Guide" />
+  </a>
+</div>
+
 ## License
 
 This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
