@@ -1,10 +1,13 @@
 <script setup lang="ts">
 import { FetchError } from "ofetch";
 
+useSeoMeta({
+    title: 'Register',
+})
+
 definePageMeta({
     middleware: ['$guest'],
 });
-
 
 const form = ref({
     name: "",

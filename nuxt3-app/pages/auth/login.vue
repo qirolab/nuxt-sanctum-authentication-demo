@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import { FetchError } from "ofetch";
 
+useSeoMeta({
+    title: 'Login',
+})
+
 definePageMeta({
     middleware: ['$guest'],
 });
