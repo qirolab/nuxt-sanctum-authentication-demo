@@ -14,7 +14,20 @@ This demo walks through setting up Sanctum authentication, including both cookie
 
 For a step-by-step guide, watch the full tutorial on YouTube:
 
-▶ [Nuxt Sanctum Authentication with Laravel Sanctum](https://www.youtube.com/watch?v=CLjd0_o67OA)
+▶ [Nuxt Sanctum Authentication with Laravel
+Sanctum](https://www.youtube.com/watch?v=CLjd0_o67OA)
+
+## Branches
+
+This repository contains two different branches depending on the type of authentication you want to implement:
+
+- **Cookie-Based SPA Authentication**: The default authentication mode using Laravel Sanctum cookies. You can check out the main branch for this implementation.
+  - Branch: `main`
+
+- **API Token-Based Authentication**: If you prefer to use token-based authentication for your API, switch to the `api-token-authentication` branch.
+  - Branch: `api-token-authentication`
+
+Make sure to check out the correct branch depending on your use case.
 
 ## Installation
 
