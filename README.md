@@ -14,8 +14,11 @@ This demo walks through setting up Sanctum authentication, including both cookie
 
 For a step-by-step guide, watch the full tutorial on YouTube:
 
-▶ [Nuxt Sanctum Authentication with Laravel
-Sanctum](https://www.youtube.com/watch?v=CLjd0_o67OA)
+<a href="https://www.youtube.com/watch?v=CLjd0_o67OA" title="Nuxt Sanctum
+Authentication with Laravel Sanctum Tutorial">
+  <img width="512" src="https://i.imgur.com/PerS99Q.png" alt="Nuxt Sanctum Authentication with Laravel Sanctum" />
+</a>
+
 
 ## Branches
 
