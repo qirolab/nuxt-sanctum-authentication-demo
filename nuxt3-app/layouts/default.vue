@@ -25,7 +25,7 @@ const logoutUser = () => logout();
                 class="flex items-center justify-center w-8 h-8 mr-2 bg-gray-200 rounded-full"
               >
                 <span class="text-lg font-bold text-gray-500">
-                  {{ user.name.slice(0, 1).toUpperCase() }}
+                  {{ user.name?.slice(0, 1).toUpperCase() }}
                 </span>
               </div>
               <img
