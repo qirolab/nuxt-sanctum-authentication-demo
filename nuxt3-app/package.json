@@ -7,10 +7,11 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "start": "node .output/server/index.mjs"
   },
   "dependencies": {
-    "@qirolab/nuxt-sanctum-authentication": "^0.1.11",
+    "@qirolab/nuxt-sanctum-authentication": "^0.1.13",
     "nuxt": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest"

@@ -22,6 +22,8 @@ export default defineNuxtConfig({
     apiUrl: process.env.NUXT_SANCTUM_API_URL,
     authMode: (process.env.NUXT_AUTH_MODE as "token" | "cookie") || "token",
 
+    userResponseWrapperKey: "data",
+
     sanctumEndpoints: {
       // Endpoint to request a new CSRF token from the server
       csrf: "/sanctum/csrf-cookie",
