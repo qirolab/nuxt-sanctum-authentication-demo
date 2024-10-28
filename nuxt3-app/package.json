@@ -10,7 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@qirolab/nuxt-sanctum-authentication": "^0.1.5",
+    "@qirolab/nuxt-sanctum-authentication": "^0.1.11",
     "nuxt": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest"
