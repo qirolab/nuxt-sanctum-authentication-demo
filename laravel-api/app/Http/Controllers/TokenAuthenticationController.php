@@ -26,6 +26,9 @@ class TokenAuthenticationController extends Controller
         }
 
         return [
+            // 'data' => [
+            //     'token' => $user->createToken('token-name')->plainTextToken
+            // ]
             'token' => $user->createToken('token-name')->plainTextToken
         ];
     }
