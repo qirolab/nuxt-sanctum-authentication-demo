@@ -31,6 +31,8 @@ async function updateProfile() {
     console.log(err);
   }
 }
+
+const resetForm = () => form.reset();
 </script>
 
 <template>
@@ -113,17 +115,27 @@ async function updateProfile() {
           </span>
         </div>
 
-        <button
-          type="submit"
-          class="w-full px-4 py-2 mt-3 text-sm font-medium text-white bg-blue-500 rounded-md"
-          :class="{
-            'hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-300':
-              !form.processing,
-            'opacity-50 cursor-not-allowed': form.processing,
-          }"
-        >
-          Save
-        </button>
+        <div class="flex gap-2">
+          <button
+            type="submit"
+            class="w-full px-4 py-2 mt-3 text-sm font-medium text-white bg-blue-500 rounded-md"
+            :class="{
+              'hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-300':
+                !form.processing,
+              'opacity-50 cursor-not-allowed': form.processing,
+            }"
+          >
+            Save
+          </button>
+
+          <button
+            type="button"
+            @click.prevent="resetForm"
+            class="flex-1 w-full px-8 py-2 mt-3 text-sm font-medium bg-gray-200 rounded-md"
+          >
+            Reset
+          </button>
+        </div>
       </form>
     </div>
   </div>
