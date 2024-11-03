@@ -11,7 +11,7 @@
     "start": "node .output/server/index.mjs"
   },
   "dependencies": {
-    "@qirolab/nuxt-sanctum-authentication": "^0.1.13",
+    "@qirolab/nuxt-sanctum-authentication": "^0.1.14",
     "nuxt": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest"
